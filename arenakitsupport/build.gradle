@@ -1,7 +1,6 @@
 apply plugin: 'com.android.library'
-
 apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.chenyunjie'
+group = 'com.github.chenyunjie'
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
@@ -30,5 +29,5 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
-    compile "com.facebook.react:react-native:0.48.3"
+    provided "com.facebook.react:react-native:0.48.3"
 }
